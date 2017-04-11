@@ -3,23 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>Canchas</title>
-    <link rel="stylesheet" href="soccer.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header>
+      <button id="botonSoccer">Soccer</button>
+      <button id="botonBasquet">Basquet</button>
+      <button id="botonTenis">Tenis</button>
+    </header>
     <section id="canchaFutbol">
-      <div id="mediaCanchaIzq"></div>
-      <div id="mediaCanchaDer"></div>
-      <div id="porteriaIzq"></div>
-      <div id="medioCirculoIzq"></div>
-      <div id="porteriaDer"></div>
-      <div id="medioCirculoDer"></div>
-      <div id="circulo"></div>
+      <div id="mediaCanchaIzq" class="cancha mediaCancha"></div>
+      <div id="mediaCanchaDer" class="cancha mediaCancha mediaCanchaDer"></div>
+      <div id="porteriaIzq" class="cancha porteria"></div>
+      <div id="medioCirculoIzq" class="cancha medioCirculo"></div>
+      <div id="porteriaDer" class="cancha porteria"></div>
+      <div id="medioCirculoDer" class="cancha medioCirculo"></div>
+      <div id="circulo" class="cancha circulo"></div>
     </section>
     <section id="canchaBasquet">
+      <div class="cancha mediaCancha"></div>
+      <div class="cancha mediaCancha mediaCanchaDer"></div>
+      <div class="cancha circulo"></div>
 
     </section>
+    <br>
     <section id="canchaTenis">
-
+      <div id="izqArriba" class="cancha rectangulo"></div>
+      <div id="izqAbajo" class="cancha rectangulo"></div>
+      <div id="costadoIzq" class="cancha costado"></div>
+      <div id="izqCuadro1" class="cancha cuadro"></div>
+      <div id="izqCuadro2"class="cancha cuadro"></div>
+      <div id="derArriba" class="cancha rectangulo"></div>
+      <div id="derAbajo" class="cancha rectangulo"></div>
+      <div id="costadoDer" class="cancha costado"></div>
+      <div id="derCuadro1" class="cancha cuadro"></div>
+      <div id="derCuadro2"class="cancha cuadro"></div>
     </section>
+    <script src="main.js"></script>
   </body>
 </html>

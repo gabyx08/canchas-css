@@ -1,0 +1,119 @@
+section{
+  width:800px ;
+  height: 600px;
+}
+.cancha{
+  border: 3px solid white;
+  position: absolute;
+}
+
+/*CANCHA SOCCER*/
+#canchaFutbol{
+  background-color: #088A08;
+}
+
+.mediaCancha{
+  width:400px ;
+  height: 600px;
+}
+.mediaCanchaDer{
+  margin-left: 400px;
+}
+
+.porteria{
+  width: 100px;
+  height: 300px;
+}
+#porteriaIzq{
+  margin-top:150px ;
+}
+#porteriaDer{
+  margin-left:700px ;
+  margin-top:150px ;
+}
+
+.medioCirculo{
+  width: 50px;
+  height: 100px;
+  -moz-border-radius: 0 100px 100px 0;
+  -webkit-border-radius: 0 100px 100px 0;
+}
+#medioCirculoIzq {
+     border-radius: 0 100px 100px 0;
+     margin-top:250px ;
+     margin-left:103px ;
+}
+#medioCirculoDer {
+     border-radius: 100px 0 0 100px;
+     margin-top:250px ;
+     margin-left:647px ;
+}
+
+.circulo{
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     margin-left: 350px;
+     margin-top: 250px;
+}
+/*CANCHA BASQUET*/
+
+#canchaBasquet{
+  background-color: #FF8000;
+}
+
+/*CANCHA TENIS*/
+
+#canchaTenis{
+  background-color: #088A08;
+}
+
+.rectangulo{
+  width:400px ;
+  height:70px ;
+}
+#izqAbajo{
+  margin-top: 530px;
+}
+#derArriba{
+margin-left: 400px;
+}
+#derAbajo{
+  margin-left: 400px;
+  margin-top: 530px;
+}
+
+.costado{
+  width: 150px;
+  height: 460px;
+}
+#costadoIzq{
+  margin-top: 70px;
+}
+#costadoDer{
+margin-top: 70px;
+margin-left: 650px;
+}
+
+.cuadro{
+  width: 250px;
+  height: 230px;
+}
+#izqCuadro1{
+  margin-left: 150px;
+  margin-top: 70px;
+}
+#izqCuadro2{
+  margin-left: 150px;
+  margin-top: 300px;
+}
+#derCuadro1{
+  margin-left: 400px;
+  margin-top: 70px;
+}
+#derCuadro2{
+  margin-left: 400px;
+  margin-top: 300px;
+}
